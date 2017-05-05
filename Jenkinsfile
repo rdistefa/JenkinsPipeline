@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sh build.sh'
+        sh 'sh /var/jenkins_home/scripts/myFirstScript.sh'
       }
     }
     stage('Test') {
