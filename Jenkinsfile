@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'sh /var/jenkins_home/scripts/myFirstScript.sh'
+        build 'riccardoJob'
       }
     }
     stage('Test') {
