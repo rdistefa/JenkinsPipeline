@@ -17,4 +17,7 @@ pipeline {
       }
     }
   }
+  environment {
+    IMAGE_TAG = 'riccardo/bwce:latestv2'
+  }
 }
